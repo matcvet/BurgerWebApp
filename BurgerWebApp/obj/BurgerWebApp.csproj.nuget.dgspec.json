@@ -1,0 +1,480 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\BurgerWebApp\\BurgerWebApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\BurgerWebApp\\BurgerWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\BurgerWebApp\\BurgerWebApp.csproj",
+        "projectName": "BurgerWebApp",
+        "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\BurgerWebApp\\BurgerWebApp.csproj",
+        "packagesPath": "C:\\Users\\cveta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\BurgerWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cveta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Business\\Business.csproj"
+              },
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj"
+              },
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Business\\Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Business\\Business.csproj",
+        "projectName": "Business",
+        "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\cveta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cveta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj"
+              },
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\ViewModels\\ViewModels.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\ViewModels\\ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\cveta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cveta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj"
+              },
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj",
+        "projectName": "DomainModels",
+        "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj",
+        "packagesPath": "C:\\Users\\cveta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cveta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj",
+        "projectName": "Helpers",
+        "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj",
+        "packagesPath": "C:\\Users\\cveta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cveta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj",
+        "projectName": "Mappers",
+        "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj",
+        "packagesPath": "C:\\Users\\cveta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cveta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj"
+              },
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\ViewModels\\ViewModels.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\ViewModels\\ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\ViewModels\\ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\ViewModels\\ViewModels.csproj",
+        "projectName": "ViewModels",
+        "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\ViewModels\\ViewModels.csproj",
+        "packagesPath": "C:\\Users\\cveta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cveta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj": {
+                "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
