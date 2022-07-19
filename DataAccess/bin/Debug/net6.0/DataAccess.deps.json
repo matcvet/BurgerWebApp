@@ -9,7 +9,6 @@
       "DataAccess/1.0.0": {
         "dependencies": {
           "DomainModels": "1.0.0",
-          "Helpers": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.Design": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",
@@ -490,11 +489,6 @@
         "runtime": {
           "DomainModels.dll": {}
         }
-      },
-      "Helpers/1.0.0": {
-        "runtime": {
-          "Helpers.dll": {}
-        }
       }
     }
   },
@@ -806,11 +800,6 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "DomainModels/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Helpers/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -2838,7 +2838,6 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "DomainModels": "1.0.0",
-          "Helpers": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"
         },
@@ -2857,16 +2856,6 @@
         },
         "runtime": {
           "bin/placeholder/DomainModels.dll": {}
-        }
-      },
-      "Helpers/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Helpers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Helpers.dll": {}
         }
       },
       "Mappers/1.0.0": {
@@ -8742,11 +8731,6 @@
       "path": "../DomainModels/DomainModels.csproj",
       "msbuildProject": "../DomainModels/DomainModels.csproj"
     },
-    "Helpers/1.0.0": {
-      "type": "project",
-      "path": "../Helpers/Helpers.csproj",
-      "msbuildProject": "../Helpers/Helpers.csproj"
-    },
     "Mappers/1.0.0": {
       "type": "project",
       "path": "../Mappers/Mappers.csproj",
@@ -8762,7 +8746,6 @@
     "net6.0": [
       "Business >= 1.0.0",
       "DataAccess >= 1.0.0",
-      "Helpers >= 1.0.0",
       "Mappers >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.7",
@@ -8802,9 +8785,6 @@
             },
             "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj": {
               "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DataAccess\\DataAccess.csproj"
-            },
-            "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj": {
-              "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj"
             },
             "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj": {
               "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Mappers\\Mappers.csproj"
@@ -8861,7 +8841,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

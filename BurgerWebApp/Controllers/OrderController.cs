@@ -28,7 +28,7 @@ namespace BurgerWebApp.Controllers
         {
             var id = _orderService.Save(model);
 
-            return RedirectToAction("Details", new { id });
+            return RedirectToAction("Details", new { id = id });
         }
 
         public IActionResult Details(int id)

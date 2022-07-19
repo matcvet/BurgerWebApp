@@ -36,8 +36,6 @@ C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Pro
 C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Projects\BurgerWebApp\BurgerWebApp\bin\Debug\net6.0\DataAccess.pdb
 C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Projects\BurgerWebApp\BurgerWebApp\bin\Debug\net6.0\DomainModels.pdb
 C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Projects\BurgerWebApp\BurgerWebApp\bin\Debug\net6.0\Mappers.pdb
-C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Projects\BurgerWebApp\BurgerWebApp\bin\Debug\net6.0\Helpers.dll
-C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Projects\BurgerWebApp\BurgerWebApp\bin\Debug\net6.0\Helpers.pdb
 C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Projects\BurgerWebApp\BurgerWebApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Projects\BurgerWebApp\BurgerWebApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\cveta\OneDrive\Documents\Projects\SEAVUS\Predmeti\07-ASP.NET MVC\My Projects\BurgerWebApp\BurgerWebApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll

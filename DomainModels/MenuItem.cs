@@ -16,22 +16,6 @@ namespace DomainModels
 
         }
 
-        public MenuItem(int id, Burger burger, Size size, int price)
-        {
-            Id = id;
-            Burger = burger;
-            Size = size;
-            Price = price;
-        }
-
-        public MenuItem(int id, int price, int burgerId, int sizeId)
-        {
-            Id = id;
-            Price = price;
-            BurgerId = burgerId;
-            SizeId = sizeId;
-        }
-
         public MenuItem(int burgerId, int sizeId, int price)
         {
             BurgerId = burgerId;

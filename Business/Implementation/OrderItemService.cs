@@ -18,11 +18,6 @@ namespace Business.Implementation
 
         public void Save(OrderItemViewModel model)
         {
-            if(model.MenuItem == null || model.Quantity <= 0)
-            {
-                throw new Exception("All fields are required");
-            }
-
             var order = _orderRepository.GetById(model.OrderId);
 
             if(order == null)
@@ -37,6 +32,11 @@ namespace Business.Implementation
                 throw new Exception("Menu item does not exist");
             }
 
+            if (model.Quantity <= 0)
+            {
+                throw new Exception($"Quantity must be grater than 0");
+            }
+
             var newOrderItem = new OrderItem(menuItem, model.Quantity);
 
             order.OrderItems.Add(newOrderItem);
@@ -46,14 +46,14 @@ namespace Business.Implementation
 
         public int Delete(int id)
         {
-            var order = _orderRepository.GetById(id);
+            var order = _orderRepository.GetAll().FirstOrDefault(x => x.OrderItems.Any(y => y.Id == id));
 
             if (order == null)
             {
                 throw new Exception("Order does not exist");
             }
 
-            var orderItem = order.OrderItems.FirstOrDefault(x => x.Id == id);
+            var orderItem = order.OrderItems.First(x => x.Id == id);
 
             order.OrderItems.Remove(orderItem);
 

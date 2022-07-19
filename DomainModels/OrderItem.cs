@@ -18,12 +18,5 @@
             MenuItem = menuItem;
             Quantity = quantity;
         }
-
-        public OrderItem(int id, MenuItem menuItem, int quantity)
-        {
-            Id = id;
-            MenuItem = menuItem;
-            Quantity = quantity;
-        }
     }
 }

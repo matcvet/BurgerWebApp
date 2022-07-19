@@ -20,7 +20,7 @@ namespace DataAccess.Repositories
 
         public MenuItem GetById(int id)
         {
-            return _dbContext.MenuItems.FirstOrDefault(x => x.Id == id);
+            return _dbContext.MenuItems.Include(x => x.Burger).Include(x => x.Size).FirstOrDefault(x => x.Id == id);
         }
 
         public void Insert(MenuItem entity)

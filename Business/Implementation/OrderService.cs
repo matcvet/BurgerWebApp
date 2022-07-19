@@ -17,7 +17,7 @@ namespace Business.Implementation
 
         public List<OrderViewModel> GetAll()
         {
-            var orders = _orderRepository.GetAll().Select(x => x.ToViewModel()).OrderBy(x => x.Id).ToList();
+            var orders = _orderRepository.GetAll().Select(x => x.ToViewModel()).ToList();
 
             return orders;
         }
@@ -36,17 +36,17 @@ namespace Business.Implementation
 
         public int Save(OrderViewModel model)
         {
-            if (string.IsNullOrEmpty(model.Address) || string.IsNullOrEmpty(model.PhoneNumber.ToString()))
+            if (string.IsNullOrEmpty(model.Name) || string.IsNullOrEmpty(model.Address) || string.IsNullOrEmpty(model.PhoneNumber.ToString()))
             {
                 throw new Exception("All fields are required");
             }
 
-            if (_orderRepository.GetAll().Any(x => x.Address == model.Address && x.PhoneNumber == model.PhoneNumber && x.Id == model.Id))
+            if (_orderRepository.GetAll().Any(x => x.Name == model.Name && x.Address == model.Address && x.PhoneNumber == model.PhoneNumber && x.Id == model.Id))
             {
                 throw new Exception("Order already exists");
             }
 
-            var order = new Order(model.PhoneNumber, model.Address, model.Note, new List<OrderItem>());
+            var order = new Order(model.Name, model.PhoneNumber, model.Address, model.Note, new List<OrderItem>());
 
             _orderRepository.Insert(order);
 

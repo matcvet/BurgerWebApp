@@ -644,16 +644,6 @@
         "runtime": {
           "bin/placeholder/DomainModels.dll": {}
         }
-      },
-      "Helpers/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Helpers.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Helpers.dll": {}
-        }
       }
     }
   },
@@ -1879,17 +1869,11 @@
       "type": "project",
       "path": "../DomainModels/DomainModels.csproj",
       "msbuildProject": "../DomainModels/DomainModels.csproj"
-    },
-    "Helpers/1.0.0": {
-      "type": "project",
-      "path": "../Helpers/Helpers.csproj",
-      "msbuildProject": "../Helpers/Helpers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "DomainModels >= 1.0.0",
-      "Helpers >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
@@ -1925,9 +1909,6 @@
           "projectReferences": {
             "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj": {
               "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\DomainModels\\DomainModels.csproj"
-            },
-            "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj": {
-              "projectPath": "C:\\Users\\cveta\\OneDrive\\Documents\\Projects\\SEAVUS\\Predmeti\\07-ASP.NET MVC\\My Projects\\BurgerWebApp\\Helpers\\Helpers.csproj"
             }
           }
         }
@@ -1978,7 +1959,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

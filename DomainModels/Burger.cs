@@ -12,14 +12,6 @@
 
         }
 
-        public Burger(int id, string name, string description, string imageUrl)
-        {
-            Id = id;
-            Name = name;
-            Description = description;
-            ImageUrl = imageUrl;
-        }
-
         public Burger(string name, string description, string imageUrl)
         {
             Name = name;

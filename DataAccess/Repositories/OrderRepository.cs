@@ -1,31 +1,46 @@
 ﻿using DataAccess.Abstraction;
 using DomainModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Repositories
 {
     public class OrderRepository : IRepository<Order>
     {
-        private readonly BurgerAppDbContext _DbContext;
+        private readonly BurgerAppDbContext _dbContext;
 
         public OrderRepository(BurgerAppDbContext dbContext)
         {
-            _DbContext = dbContext;
+            _dbContext = dbContext;
         }
 
         public List<Order> GetAll()
         {
-            return _DbContext.Orders.ToList();
+            return _dbContext.Orders
+                .Include(x => x.OrderItems)
+                .ThenInclude(x => x.MenuItem)
+                .ThenInclude(x => x.Burger)
+                .Include(x => x.OrderItems)
+                .ThenInclude(x => x.MenuItem)
+                .ThenInclude(x => x.Size)
+                .ToList();
         }
 
         public Order GetById(int id)
         {
-            return _DbContext.Orders.FirstOrDefault(x => x.Id == id);
+            return _dbContext.Orders
+                .Include(x => x.OrderItems)
+                .ThenInclude(x => x.MenuItem)
+                .ThenInclude(x => x.Burger)
+                .Include(x => x.OrderItems)
+                .ThenInclude(x => x.MenuItem)
+                .ThenInclude(x => x.Size)
+                .FirstOrDefault(x => x.Id == id);
         }
 
         public void Insert(Order entity)
         {
-            _DbContext.Orders.Add(entity);
-            _DbContext.SaveChanges();
+            _dbContext.Orders.Add(entity);
+            _dbContext.SaveChanges();
         }
 
         public void Update(Order entity)
@@ -34,8 +49,8 @@ namespace DataAccess.Repositories
 
             if(item != null)
             {
-                _DbContext.Orders.Update(item);
-                _DbContext.SaveChanges();
+                _dbContext.Orders.Update(item);
+                _dbContext.SaveChanges();
             }
         }
 
@@ -45,8 +60,8 @@ namespace DataAccess.Repositories
 
             if(item != null)
             {
-                _DbContext.Orders.Remove(item);
-                _DbContext.SaveChanges();
+                _dbContext.Orders.Remove(item);
+                _dbContext.SaveChanges();
             }
         }
     }

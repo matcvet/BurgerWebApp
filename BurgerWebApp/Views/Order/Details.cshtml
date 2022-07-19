@@ -3,6 +3,7 @@
 
 <div class="container">
     <div class="mb-3">
+        <p class="fs-3">Name <span>@Model.Name</span></p>
         <p class="fs-3">Address: <span>@Model.Address</span></p>
         <p class="fs-3">Phone Number: <span>@Model.PhoneNumber</span></p>
         <p class="fs-3">Note: <span>@Model.Note</span></p>
@@ -29,7 +30,7 @@
                         <td>@Model.Items[i].MenuItem.ToString()</td>
                         <td>@Model.Items[i].Quantity</td>
                         <td>
-                            <a asp-action="Delete" class="btn btn-danger" asp-route-id="@Model.Items[i].Id">Delete</a>
+                            <a asp-action="Delete" asp-controller="OrderItem" asp-route-id="@Model.Items[i].Id" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
                 }

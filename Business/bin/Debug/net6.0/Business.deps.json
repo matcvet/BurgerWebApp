@@ -1986,7 +1986,6 @@
       "DataAccess/1.0.0": {
         "dependencies": {
           "DomainModels": "1.0.0",
-          "Helpers": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7"
         },
@@ -1997,11 +1996,6 @@
       "DomainModels/1.0.0": {
         "runtime": {
           "DomainModels.dll": {}
-        }
-      },
-      "Helpers/1.0.0": {
-        "runtime": {
-          "Helpers.dll": {}
         }
       },
       "Mappers/1.0.0": {
@@ -3309,11 +3303,6 @@
       "sha512": ""
     },
     "DomainModels/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Helpers/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
