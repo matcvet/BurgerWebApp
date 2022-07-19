@@ -44,7 +44,7 @@ namespace Business.Implementation
                 throw new Exception("All fields are required");
             }
 
-            if(_burgerRepository.GetAll().Any(x => x.Name == model.Name && x.Description == model.Description && x.Id == model.Id))
+            if(_burgerRepository.GetAll().Any(x => x.Name == model.Name && x.Description == model.Description && x.ImageUrl == model.ImageUrl && x.Id == model.Id))
             {
                 throw new Exception("Burger already exists");
             }
